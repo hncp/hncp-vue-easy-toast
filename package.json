@@ -1,0 +1,84 @@
+{
+  "_args": [
+    [
+      "vue-easy-toast@1.0.5",
+      "D:\\Projects\\htdocs\\laravel-master"
+    ]
+  ],
+  "_from": "vue-easy-toast@1.0.5",
+  "_id": "vue-easy-toast@1.0.5",
+  "_inBundle": false,
+  "_integrity": "sha512-Tx7TNn19wAbaqvreJMrYrlTwMtHMyaEoG/ISfmFQ4ABWdyB4qphU+eialiOSpGbRFg5w61cBGBkVy3lyJroOPw==",
+  "_location": "/vue-easy-toast",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "vue-easy-toast@1.0.5",
+    "name": "vue-easy-toast",
+    "escapedName": "vue-easy-toast",
+    "rawSpec": "1.0.5",
+    "saveSpec": null,
+    "fetchSpec": "1.0.5"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/vue-easy-toast/-/vue-easy-toast-1.0.5.tgz",
+  "_spec": "1.0.5",
+  "_where": "D:\\Projects\\htdocs\\laravel-master",
+  "author": {
+    "name": "nooooru@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/noru/vue-easy-toast/issues"
+  },
+  "dependencies": {},
+  "description": "A toast plugin for vue/vue2",
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-plugin-transform-runtime": "^6.22.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "cross-env": "^3.0.0",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.10.0",
+    "vue": "^2.2.6",
+    "vue-hot-reload-api": "^1.2.0",
+    "vue-html-loader": "^1.2.3",
+    "vue-loader": "11.0.0",
+    "vue-style-loader": "^2.0.0",
+    "vue-template-compiler": "^2.2.6",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.1"
+  },
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "homepage": "https://github.com/noru/vue-easy-toast#readme",
+  "keywords": [
+    "vue",
+    "toast",
+    "vue-component",
+    "component"
+  ],
+  "license": "MIT",
+  "main": "dist/vue-easy-toast.min.js",
+  "name": "vue-easy-toast",
+  "peerDependencies": {
+    "vue": "2.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noru/vue-easy-toast.git"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --inline --hot",
+    "dist": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "typings": "types/index.d.ts",
+  "version": "1.0.5"
+}
